@@ -1,12 +1,19 @@
 <!doctype html>
 <html>
   <head>
-    <title>CAS Authentication Client</title>
-    <link href="auth-cas.css" type="text/css" rel="stylesheet">
+    <title>Session Authentication Example</title>
   </head>
   <body>
-    <h1>CAS Authentication</h1>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="auth-cas.js"></script>
+    <h1>Session Authentication Example</h1>
+    <p>
+      This simple server offers an example of session-based
+      authentication.  The routes
+      <a href="/one">one</a> and <a href="/two">two</a>
+      will only be served to authenticated users.
+    </p>
+    <p>
+      You can also <a href="/login">login</a> and
+      <a href="/logout">logout</a> manually.
+    </p>
   </body>
 </html>

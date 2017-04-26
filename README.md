@@ -1,2 +1,2 @@
-# auth-cas
-An implementation of a CAS client using express
+# simple-auth-cas
+A simple node server implementing Central Authentication Service (CAS) login
